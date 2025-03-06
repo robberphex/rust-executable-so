@@ -1,0 +1,11 @@
+[package]
+name = "entry"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "entry"
+
+# 链接 libexample 库
+[dependencies]
+libexample = { path = "../libexample" }
